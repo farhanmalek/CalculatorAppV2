@@ -25,3 +25,9 @@ If you are developing a production application, we recommend updating the config
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## About
+- This app was another early attempt at using Typescript, React and Tailwind. I have created a simple calculator app that can perform basic functions.
+- To run:
+- Clone the repo
+- npm install
+- npm run dev in the right folder.
