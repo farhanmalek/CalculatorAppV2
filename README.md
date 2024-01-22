@@ -1,33 +1,31 @@
-# React + TypeScript + Vite
+# Tailwind Calculator App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This calculator app is a rebuilt version that utilizes Tailwind CSS for styling, React for the frontend, and TypeScript for enhanced type safety. The application provides a simple and responsive calculator interface for basic arithmetic operations.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Key Features
 
-## Expanding the ESLint configuration
+### 1. **Tailwind CSS Styling:**
+   - The app leverages Tailwind CSS for a clean, modern, and responsive design. Tailwind's utility-first approach simplifies styling and enhances the overall visual appeal.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### 2. **React Components:**
+   - The frontend is developed using React, allowing for a modular and efficient component-based structure.
 
-- Configure the top-level `parserOptions` property like this:
+### 3. **TypeScript Integration:**
+   - TypeScript is employed to introduce static typing, improving code quality, and catching potential errors during development.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+### 4. **Basic Arithmetic Operations:**
+   - Users can perform standard arithmetic operations such as addition, subtraction, multiplication, and division.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
-## About
-- This app was another early attempt at using Typescript, React and Tailwind. I have created a simple calculator app that can perform basic functions.
-- To run:
-- Clone the repo
-- npm install
-- npm run dev in the right folder.
+### 5. **Responsive Design:**
+   - The app is designed to be responsive, ensuring a seamless user experience on various devices and screen sizes.
+
+## Usage
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/farhanmalek/CalculatorAppV2.git
+   cd Calculator-App-V2
+   npm i
+   npm run dev
